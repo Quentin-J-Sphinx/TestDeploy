@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "all": "npm i concurrently --save-dev && npm i --save-dev  && cd Front && npm i --save-dev  && cd ../Back && npm i --save-dev && cd ../ && npm start",
+    "all": "npm i concurrently --omit=dev && npm i --omit=dev  && cd Front && npm i --omit=dev  && cd ../Back && npm i --omit=dev && cd ../ && npm start",
     "start": "concurrently \"npm run back\" \"npm run front\"",
-    "front": "cd Front/ && npm i parcel --save-dev && npm start",
-    "back": "cd Back/ && npm i node node-dev --save-dev && node-dev index --clear --notify=false"
+    "front": "cd Front/ && npm i parcel --omit=dev && npm start",
+    "back": "cd Back/ && npm i node node-dev --omit=dev && node-dev index --clear --notify=false"
   },
   "keywords": [],
   "author": "",
