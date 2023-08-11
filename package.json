@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm i cd Back/ && node index.js",
-    "build": "cd Front/ && npm i parcel fullcalendar axios date-fns normalize.css && npm i && npm run build"
+    "all": "npm i && cd Front && npm i && cd ../Back && npm i && cd ../ && npm start",
+    "start": "concurrently \"npm run back\" \"npm run front\""
   },
   "keywords": [],
   "author": "",
