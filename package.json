@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "front": "cd Front/ && npm start",
-    "back": "cd Back/ && node-dev index --clear --notify=false",
-    "all": "npm i && cd Front && npm i && cd ../Back && npm i && cd ../ && npm start",
-    "start": "concurrently \"npm run back\" \"npm run front\""
+    "start": "npm i cd Back/ && node index.js",
+    "build": "cd Front/ && npm i parcel && npm i && npm run build"
   },
   "keywords": [],
   "author": "",

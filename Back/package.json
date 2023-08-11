@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index",
-    "build": "cd .. && cd Front/ && npm i && npm run build"
+    "build": "npm i && npm i node-dev && cd .. && cd Front/ && npm i && npm i parcel && npm run build"
   },
   "keywords": [],
   "author": "",
