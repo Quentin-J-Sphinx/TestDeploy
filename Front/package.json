@@ -8,7 +8,6 @@
   },
   "source": "public/index.html",
   "scripts": {
-    "start": "parcel",
     "build": "parcel build"
   },
   "proxy": "http://localhost:3000",

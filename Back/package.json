@@ -6,8 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "node index",
-    "dev": "node-dev index --clear --notify=false",
-    "db": "node init-db",
     "build": "cd .. && cd Front/ && npm i && npm run build"
   },
   "keywords": [],
