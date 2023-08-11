@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm i cd Back/ && node index.js",
-    "build": "cd Front/ && npm i parcel fullcalendar axios date-fns && npm i && npm run build"
+    "build": "cd Front/ && npm i parcel fullcalendar axios date-fns normalize && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
