@@ -6,8 +6,8 @@
   "scripts": {
     "all": "npm i && cd Front && npm i && cd ../Back && npm i && cd ../ && npm start",
     "start": "concurrently \"npm run back\" \"npm run front\"",
-    "front": "cd Front/ && npm start",
-    "back": "cd Back/ && node-dev index --clear --notify=false"
+    "front": "cd Front/ && npm i parcel && npm start",
+    "back": "cd Back/ && npm i node-dev &&node-dev index --clear --notify=false"
   },
   "keywords": [],
   "author": "",
